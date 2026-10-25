@@ -225,8 +225,10 @@ pre.diff { margin: 0; max-height: 420px; overflow: auto; background: #FBF9F6; bo
 @media (max-width: 640px) {
   main { padding: 16px 12px 32px; }
   .topbar { flex-wrap: wrap; padding: 8px 12px; gap: 8px; }
-  .top-link { margin-left: auto; }
-  .stepper { order: 3; width: 100%; justify-content: space-between; gap: 2px; }
+  .top-link { margin-left: auto; font-size: .9rem; }
+  .brand img { height: 22px; }
+  .brand span { padding-left: 8px; font-size: .95rem; }
+  .stepper { order: 3; flex: 1 1 100%; justify-content: space-between; gap: 2px; flex-wrap: nowrap; }
   .step { width: 30px; height: 30px; }
   .hero { padding: 20px; }
   .hero h1 { font-size: 2rem; }
