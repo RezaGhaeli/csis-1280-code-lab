@@ -78,6 +78,7 @@
         </label>
         <div class="hero-actions">
           <a class="btn primary" href="${startHref}" id="startBtn">${startLabel}</a>
+          <a class="btn ghost" href="guide/Trailhead_Code_Lab_Student_Guide.pdf" target="_blank" rel="noopener" id="guideBtn">📘 Student guide (PDF)</a>
           ${done ? `<span class="muted">Run ${state.run.n}: ${done} of ${N} submitted · ${overall()}% so far</span>` : ''}
         </div>
       </div>
@@ -92,7 +93,7 @@
         <li><img src="img/cupping.png" alt=""><strong>Run and submit</strong><span>Your page updates as you type. Submit when it matches the goal.</span></li>
         <li><img src="img/bags.png" alt=""><strong>Learn from the report</strong><span>See each mistake, why it matters, the proper code, and your score.</span></li>
       </ol>
-      <p class="muted">Submit an activity to unlock the next one. You can redo any activity, and start the whole lab again as many times as you like.</p>
+      <p class="muted">Submit an activity to unlock the next one. You can redo any activity, and start the whole lab again as many times as you like. New here? Read the <a href="guide/Trailhead_Code_Lab_Student_Guide.pdf" target="_blank" rel="noopener">student guide</a> first (about ten minutes).</p>
     </section>
 
     <section class="cards-grid">

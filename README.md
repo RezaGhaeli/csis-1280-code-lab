@@ -18,6 +18,10 @@ fictional Trailhead Coffee Roasters website used in the course case studies.
 | 9 | 6 | HTML | Video, audio, captions |
 | 10 | 6 | HTML | Forms and validation |
 
+## Student guide
+
+A 21-page illustrated guide for students: [guide/Trailhead_Code_Lab_Student_Guide.pdf](guide/Trailhead_Code_Lab_Student_Guide.pdf). It is linked from the app’s home page and footer.
+
 ## How it works
 
 - Each activity gives a short story, numbered steps, an illustration, and starter code. Students edit either
