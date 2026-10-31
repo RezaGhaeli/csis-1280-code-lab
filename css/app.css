@@ -94,6 +94,8 @@ main { max-width: 1400px; margin: 0 auto; padding: 24px 20px 40px; outline: none
   background: white; border-radius: 16px; padding: 32px; box-shadow: var(--shadow);
 }
 .hero h1 { font-size: 2.6rem; margin: 0 0 10px; }
+.byline { margin: -4px 0 10px; color: var(--muted); font-size: .95rem; }
+.byline a, .foot a { color: var(--copper); font-weight: 600; }
 .lead { font-size: 1.1rem; color: var(--muted); margin: 0 0 18px; }
 .hero-art { border-radius: 12px; width: 100%; aspect-ratio: 1200 / 460; object-fit: cover; }
 .name-field { display: block; font-weight: 700; color: var(--brown); margin-bottom: 16px; }

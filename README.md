@@ -1,5 +1,7 @@
 # Trailhead Code Lab
 
+**Created by [Reza Ghaeli](https://github.com/RezaGhaeli)**
+
 Ten hands-on HTML and CSS activities for **CSIS 1280 (Web Design), Modules 1–6**, built around the
 fictional Trailhead Coffee Roasters website used in the course case studies.
 
@@ -47,3 +49,7 @@ A 21-page illustrated guide for students: [guide/Trailhead_Code_Lab_Student_Guid
 
 To add or change an activity, edit `js/activities.js`. Each check is
 `{ text, pts, test(c), explain, fix }`, where `test` returns `true`/`false` or `c.ok(pass, foundText)`.
+
+---
+
+© 2026 Reza Ghaeli · [github.com/RezaGhaeli](https://github.com/RezaGhaeli)

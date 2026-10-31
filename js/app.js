@@ -72,6 +72,7 @@
       <div class="hero-text">
         <p class="kicker">CSIS 1280 · Modules 1 to 6</p>
         <h1>Trailhead Code Lab</h1>
+        <p class="byline">Created by <a href="https://github.com/RezaGhaeli" target="_blank" rel="noopener author">Reza Ghaeli</a> · <a href="https://github.com/RezaGhaeli" target="_blank" rel="noopener">github.com/RezaGhaeli</a></p>
         <p class="lead">Ten short, hands-on activities that build pieces of the Trailhead Coffee website. Write the HTML or the CSS, run it, submit it, and see exactly what to fix, with the proper code beside yours.</p>
         <label class="name-field">Your name (shown on your results)
           <input id="nameInput" type="text" autocomplete="name" placeholder="e.g. Jordan Lee" value="${esc(state.name)}">
@@ -356,7 +357,7 @@
         <button class="btn ghost" onclick="window.print()">Print or save as PDF</button>
         <button class="btn primary big" id="newRun">Start the lab again</button>
       </div>
-      <p class="muted print-note">Printed ${new Date().toLocaleString()} · ${esc(state.name || 'Student')} · Run ${state.run.n}</p>
+      <p class="muted print-note">Printed ${new Date().toLocaleString()} · ${esc(state.name || 'Student')} · Run ${state.run.n} · Trailhead Code Lab by Reza Ghaeli (https://github.com/RezaGhaeli)</p>
     </section>`;
     $('#newRun').addEventListener('click', () => {
       if (!confirm('Start a new run? This run’s scores are saved in your history, and every activity starts fresh.')) return;
